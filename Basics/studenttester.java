@@ -5,7 +5,7 @@
 //     }
 // }
 
-public class tester{
+public class studenttester{
     public static void main (String[] args){
         // Classname variable = new Classname()
         student s1 = new student (); // Object 1
