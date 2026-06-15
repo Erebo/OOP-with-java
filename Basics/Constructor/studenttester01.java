@@ -7,6 +7,7 @@ public class studenttester01 {
         student s1 = new student();
         student s2 = new student();
         student s3 = new student();
+        student s4 = new student();
         s1.name = "Rohan";
         s2.name = "Rahul";
         s1.id = 10;
