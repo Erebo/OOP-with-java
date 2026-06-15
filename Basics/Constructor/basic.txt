@@ -1,0 +1,20 @@
+Constructor is a special kind of method that is used to initialize objects.
+
+It is used for initializing the instance members when we create the object of a class.
+
+A constructor is  called only one for an object .
+
+Every class must have a constructor , even if it simply relies on the default constructor . 
+
+Constructor can be of two types :
+(1) Non-parameterized -> Default Constructor .
+(2) Parameterize Constructor .
+
+
+        student s1 = new student (); // Object 1
+        student s2 = new student (); // Object 2
+        student s3 = new student();
+        student s4 = new student(); --> egulor jonno java default constructor create kore ney 
+
+* Constructor name must be class name hote hobe .
+
