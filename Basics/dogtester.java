@@ -2,6 +2,7 @@
 // Method Overloading : 
 // When a class have multiple methods with same name and different number of parameters -> This situation is called method overloading . 
 // Only one public class per file .
+// method overloading only works with methods er name 
 public class dogtester {
     public static void main(String[] args) {
         dog d1 = new dog(); // objects
@@ -14,7 +15,7 @@ public class dogtester {
         d1.eat("meat");
         d1.eat("protin shake", "meat");
         d1.eat("chicken legs", "5");
-
+        d1.sleep(2.5f,3f);
     }
 
 }
@@ -44,6 +45,12 @@ class dog {
 
     public void name() {
         System.out.println("The name of the dog is " + name);
+    }
+
+    public float sleep(float a,float b){
+        float add = a+b;
+        System.out.println("Dog is sleeping for "+add+" hours.");
+        return add;
     }
 
 }
