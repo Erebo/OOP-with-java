@@ -1,0 +1,19 @@
+Abstraction can happen in  methods and class
+We need to use 'abstract' key words like : abstract public class student{}
+or , public abstract class student{}
+An abstract class can have both abstract and non abstract methods 
+
+An abstract method doesn't have a body as we need to hide what's happening inside the method 
+An abstract ends with semi colon (;)
+
+If a class has an abstract method then the class must be declared as abstract as well.
+
+
+An abstract class can not be instantiated ( Object can not be created )
+So,
+
+shape s1 = new shape(); ---> NO 
+we cannot write this ! 
+
+we can do this , 
+shape s1 = new circle();
