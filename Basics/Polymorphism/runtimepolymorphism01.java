@@ -25,8 +25,11 @@ class cat extends animal{
 
 public class runtimepolymorphism01{
 
-    public static void sound(animal a){
+    public static void sound(animal a){ // here animal ----> reference type 
+    // a ----> Object type
         a.makesound();
+// Always reference e check korbe method ta ase kina 
+// here jodi animal ( reference ) e makesound method na thkae thaole compilation error dibe.
     }
     public static void main(String[] args){
         animal a1 = new animal();
@@ -35,7 +38,7 @@ public class runtimepolymorphism01{
 
         a1.makesound();
 
-
+// Upcastin mane holo cild er object ke parents er vitor rakha
         animal a2 = new dog(); // Upcasting 
         a2.makesound();
 
